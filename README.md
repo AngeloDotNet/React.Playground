@@ -1,1 +1,1 @@
-# Demo-React-People
+# Demo React People
