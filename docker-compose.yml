@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+  demo-react:
+    container_name: demo-react
+    build: .
+    restart: always
+    ports:
+      - 5181:80
+    networks:
+      - lan-network
+
+networks:
+   lan-network:
+      external:
+         name: docker-lan
