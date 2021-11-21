@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.titolo {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 50px;
+}
+
+.cliente {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 50px;
+}
